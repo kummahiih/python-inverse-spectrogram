@@ -4,6 +4,7 @@
 
 """Inverse spectogram for scipy.signal.spectrogram done for the human ears.
 
+   ```
    >>> from scipy.io import wavfile
    >>> import scipy.signal as signal
    >>> import numpy as np
@@ -15,6 +16,8 @@
 
    >>> f, t, Sxx = signal.spectrogram(left, fs, mode='magnitude')
    >>> lInverse = inverse_spectrogram(f, t, Sxx, fs)
+   
+   ```
 
 """
 
