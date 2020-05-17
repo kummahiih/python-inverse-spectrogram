@@ -2,8 +2,7 @@
 #   @license: MIT <http://www.opensource.org/licenses/mit-license.php>
 
 
-"""
-   Inverse spectogram for scipy.signal.spectrogram done for the human ears.
+"""Inverse spectogram for scipy.signal.spectrogram done for the human ears.
 
    >>> from scipy.io import wavfile
    >>> import scipy.signal as signal

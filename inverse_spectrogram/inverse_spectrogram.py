@@ -8,10 +8,9 @@ import random
 import typing
 
 def inverse_spectrogram(f: np.array, t: np.array, Sxx: np.array, fs: int) -> np.array:
-    """
-    inverse_spectrogram calculates the inverse spectrogram from frequencies f,
-    intervals t, magnitude matrix Sxx using the sample rate fs.
-    Returns signal as a np.array
+    """inverse_spectrogram calculates the inverse spectrogram
+from frequencies f, intervals t, magnitude matrix Sxx using the sample rate fs.
+Returns signal as a np.array
     """
     #you can not hear the phase they say
     phases = [random.uniform(0,2*pi) for j in range(len(f))]

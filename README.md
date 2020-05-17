@@ -1,6 +1,5 @@
 # pyhon-inverse-spectrogram
-
-   Inverse spectogram for scipy.signal.spectrogram done for the human ears.
+Inverse spectogram for scipy.signal.spectrogram done for the human ears.
 
    >>> from scipy.io import wavfile
    >>> import scipy.signal as signal
@@ -16,8 +15,7 @@
 
 
 ## inverse_spectrogram(f, t, Sxx, fs)
-
-    inverse_spectrogram calculates the inverse spectrogram from frequencies f,
-    intervals t, magnitude matrix Sxx using the sample rate fs.
-    Returns signal as a np.array
+inverse_spectrogram calculates the inverse spectrogram
+from frequencies f, intervals t, magnitude matrix Sxx using the sample rate fs.
+Returns signal as a np.array
     
