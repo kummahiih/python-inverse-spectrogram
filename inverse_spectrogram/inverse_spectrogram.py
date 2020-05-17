@@ -7,7 +7,7 @@ from math import sin, pi
 import random
 import typing
 
-def inverse_spectrogram(f: np.array, t: np.array, Sxx: np.array, fs: int) -> np.array:
+def inverse_spectrogram(f: np.ndarray, t: np.ndarray, Sxx: np.ndarray, fs: int) -> np.ndarray:
     """inverse_spectrogram calculates the inverse spectrogram
 from frequencies f, intervals t, magnitude matrix Sxx using the sample rate fs.
 Returns signal as a np.array
