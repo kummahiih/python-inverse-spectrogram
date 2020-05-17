@@ -10,7 +10,7 @@ with open('README.md', 'r') as readme_file:
 
 setup(
     name='pyhon-inverse-spectrogram',
-    version='0.0.1',
+    version='0.0.2',
     description='Inverse spectogram for scipy.signal.spectrogram',
     long_description=README,
     license="MIT",
